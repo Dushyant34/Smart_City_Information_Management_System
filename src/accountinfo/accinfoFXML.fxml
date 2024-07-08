@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<ScrollPane xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="accountinfo.AccinfoFXMLController">
+   <content>
+      <AnchorPane id="AnchorPane" fx:id="account_information" prefHeight="506.0" prefWidth="760.0" styleClass="mainFxmlClass">
+          <stylesheets>
+              <URL value="@accinfofxml.css" />
+          </stylesheets>
+         <children>
+            <Pane layoutX="14.0" layoutY="21.0" prefHeight="180.0" prefWidth="350.0" style="-fx-background-color: a6dcf4;">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #4CADF1;" text="                  Email" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="22.0" />
+                     </padding>
+                  </Label>
+                  <Text fx:id="email" fill="WHITE" layoutX="-1.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="email" textAlignment="CENTER" wrappingWidth="351.7367706298828">
+                     <font>
+                        <Font name="Impact" size="20.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="380.0" layoutY="21.0" prefHeight="180.0" prefWidth="350.0" style="-fx-background-color: #F7D9A9;">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #FFC669;" text="               Gender" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="35.0" />
+                     </padding>
+                  </Label>
+                  <Text fx:id="sex" fill="WHITE" layoutX="59.0" layoutY="118.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Male" textAlignment="CENTER" wrappingWidth="217.336669921875">
+                     <font>
+                        <Font name="Impact" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="14.0" layoutY="253.0" prefHeight="180.0" prefWidth="350.0" style="-fx-background-color: #f1bdbd;">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #f56d6d;" text="           Type" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Cambria" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="40.0" />
+                     </padding>
+                  </Label>
+                  <Text fx:id="info" fill="WHITE" layoutX="-2.0" layoutY="110.0" strokeType="OUTSIDE" strokeWidth="0.0" text="citizien" textAlignment="CENTER" wrappingWidth="353.33680725097656">
+                     <font>
+                        <Font name="Impact" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Pane layoutX="387.0" layoutY="253.0" prefHeight="180.0" prefWidth="350.0" style="-fx-background-color: #7FCDCF;">
+               <children>
+                  <Label prefHeight="45.0" prefWidth="350.0" style="-fx-background-color: #3BABB0;" text="           Mobile No." textFill="WHITE">
+                     <font>
+                        <Font name="Cambria" size="30.0" />
+                     </font>
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                  </Label>
+                  <Text fx:id="mobileno" fill="WHITE" layoutX="42.0" layoutY="111.0" strokeType="OUTSIDE" strokeWidth="0.0" text="000000000" textAlignment="CENTER" wrappingWidth="282.13671875">
+                     <font>
+                        <Font name="Impact" size="28.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Label layoutX="14.0" layoutY="433.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #f56d6d;" />
+            <Label layoutX="14.0" layoutY="201.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #4CADF1;" />
+            <Label layoutX="380.0" layoutY="194.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #FFC669;" />
+            <Label layoutX="387.0" layoutY="433.0" prefHeight="25.0" prefWidth="350.0" style="-fx-background-color: #3BABB0;" />
+         </children>
+      </AnchorPane>
+   </content>
+</ScrollPane>
